@@ -1,0 +1,26 @@
+PERSONAL ASSISTANT ANDROID v3.8.0 — BUILD WITHOUT ANDROID STUDIO
+================================================================
+
+This project builds in a web browser through GitHub Actions. Android Studio is not required.
+
+BUILD STEPS
+-----------
+1. Create or open a GitHub repository.
+2. Upload every item from this extracted project folder to the repository root. The root must
+   directly contain app/, .github/, build.gradle, settings.gradle, and gradle.properties.
+3. Commit the files.
+4. Open Actions > Build Android APK.
+5. Run the workflow on the main branch, or open the build that started automatically.
+6. Wait for the green check mark.
+7. Open the successful run and download the artifact PersonalAssistant-Android-debug-APK.
+8. Extract the artifact ZIP and install app-debug.apk on the phone.
+
+UPDATE AN EXISTING REPOSITORY
+-----------------------------
+Delete or overwrite the old app folder, build.gradle files, and .github/workflows/build-apk.yml
+with the contents of this package. Commit the update; a new APK build starts automatically.
+
+PHONE INSTALLATION
+------------------
+Android may ask permission to install unknown apps. Grant it only to the browser or file manager
+used to open the APK. The app asks for notification permission on Android 13 and newer.

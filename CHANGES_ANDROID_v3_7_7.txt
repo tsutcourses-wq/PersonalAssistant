@@ -1,0 +1,9 @@
+Personal Assistant Android v3.7.7
+
+Changes in this release:
+- Reworked navigation history so the top Back arrow and the phone Back action rebuild the previous page from the database instead of restoring an outdated screen snapshot. Saved changes remain visible after navigating back.
+- Centered the Back arrow inside its header button.
+- Removed the word "Shamsi" from all user-facing Android labels and dialogs. Persian calendar values and date pickers remain unchanged.
+- Applied dark dialog themes and dark spinner/dropdown styling throughout the app, including student-level selection and other popup windows.
+- Added a gear icon at the top-right of the Dashboard for direct access to Settings.
+- Kept the remaining v3.7.6 features unchanged.
