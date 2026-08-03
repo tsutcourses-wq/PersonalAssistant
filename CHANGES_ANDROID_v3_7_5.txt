@@ -1,0 +1,21 @@
+Personal Assistant Android v3.7.5
+
+1. Reminder notifications
+- Added Android notification channel and runtime permission request.
+- Schedules 1-day, 1-hour, and 10-minute reminder alerts.
+- Reschedules alarms after reboot, package update, time change, and database import.
+
+2. Mobile dashboard and navigation
+- Removed Mobile Dashboard card and Overview card.
+- Added one-week Shamsi calendar.
+- Added side navigation opened by the three-line button.
+- Quick actions include Add project.
+
+3. Appearance
+- Moved the night-view control to Settings.
+- Replaced the text button with a sun/moon switch.
+
+4. Windows v3.7.5 functional modules adapted for phone use
+- Students, student documents/tasks/dates, projects, project tasks/staff/documents/letters,
+  WBS, CBS, S-curve data, Gantt data, courses, course documents, reminders, reports,
+  and folder-first File Inventory.
