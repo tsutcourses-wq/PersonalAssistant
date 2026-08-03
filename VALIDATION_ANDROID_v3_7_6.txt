@@ -1,0 +1,13 @@
+Personal Assistant Android v3.7.6 validation summary
+
+Completed static checks:
+- Java delimiter/brace/string lexical balance: passed.
+- Android XML parsing for manifest, styles, colors and FileProvider paths: passed.
+- GitHub Actions workflow exists at .github/workflows/build-apk.yml.
+- AndroidX build properties exist at repository root.
+- Manifest declares notification, boot, exact-alarm and wake-lock permissions.
+- Required Java source files referenced by the manifest are present.
+- Version updated to 3.7.6 Android / versionCode 3760.
+
+Build note:
+The APK is intended to be compiled by the included GitHub Actions workflow. The current execution environment does not contain the Android SDK, so the final Android Gradle compilation must be confirmed by the workflow after upload.

@@ -1,0 +1,20 @@
+Personal Assistant Android v3.7.6
+
+Requested corrections
+- Android phone Back now returns to the preceding app screen. It no longer closes the app from the dashboard.
+- Added an in-app Back button to every non-dashboard section.
+- Enabled immersive full-screen operation and added a live 24-hour clock to the app header.
+- Rebuilt the header so the menu, section title, and app title are displayed below the clock area.
+- Added Add task to Dashboard Quick Actions.
+- Added Add task to All Tasks, with General, Project, and Student task choices.
+- Removed the word Shamsi from the dashboard weekly calendar heading.
+- Selecting a day in the weekly calendar and then adding a reminder now preselects that selected day.
+- Updated the visual style with a gradient header, larger rounded cards, improved spacing, elevation, and refreshed light/dark palettes.
+- Strengthened reminder notifications: notification permission check, exact-alarm status, exact-alarm settings shortcut, test-notification button, rescheduling, due-time notification, and existing 1-day/1-hour/10-minute alerts.
+- Added Settings exports for Students, Courses, Projects, and all Tasks as UTF-8 CSV files compatible with Excel.
+- Added gradle.properties to enable AndroidX automatically in GitHub Actions builds.
+
+Compatibility
+- Database filename remains assistant_data.db.
+- Existing v3.7.5 Android and Windows-compatible records remain supported.
+- Other app sections and existing features are retained.
