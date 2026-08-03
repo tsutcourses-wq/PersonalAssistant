@@ -1,8 +1,0 @@
-Validation performed in the packaging environment
-=================================================
-- Java source brace balance: passed.
-- Internal MainActivity method-reference scan: passed; no missing custom methods detected.
-- Android manifest and resource XML parsing: passed.
-- Database schema reviewed against the Windows v3.7.5 tables and migration columns.
-- Full APK compilation must run through the included GitHub Actions workflow because the packaging
-  environment does not contain the Android SDK.
