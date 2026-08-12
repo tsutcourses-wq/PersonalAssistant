@@ -1,0 +1,24 @@
+Personal Assistant Android v3.8.1
+
+Base: PersonalAssistantAndroid_v3_8_0_ServerReady supplied by the user.
+
+Targeted Android UI corrections:
+1. Students removed from Android navigation/UI.
+2. Projects removed from Android navigation/UI.
+3. Courses removed from Android navigation/UI.
+4. File Inventory removed from Android navigation/UI.
+5. Database / sync card removed from Settings.
+6. Central server / Phase 1 card removed from Settings.
+7. Quick Actions removed from Dashboard.
+8. Dashboard now contains: navigable calendar + Add reminder, up to 5 upcoming reminders, up to 5 upcoming tasks + Add task + See all tasks, and bilingual English/Persian notes.
+9. Calendar now supports Week, Month, and Year views with Previous/Today/Next navigation.
+10. New tasks are generic; Project task / Student task selection is removed.
+11. Tasks can be edited after creation.
+
+Compatibility / preservation:
+- Existing reminder and notification functionality is preserved.
+- Appearance/dark mode and notification settings are preserved.
+- Existing database tables and source modules for students, projects, courses, file inventory, database transfer, and central server are retained for upgrade/data compatibility, but the requested sections are no longer exposed in the Android UI.
+- Existing student tasks and custom-sheet tasks are copied once into the generic task list during database upgrade so task information is not silently lost. Original legacy task rows remain untouched.
+- Existing project tasks already stored in todos remain in the generic task list; project association is no longer shown in the Android task UI.
+- The .github workflow and tools folder from v3.8.0 are preserved.

@@ -1,0 +1,8 @@
+Personal Assistant Android v3.8.0 validation summary
+
+- Java source braces balanced.
+- Manifest includes INTERNET permission.
+- AndroidX and Gradle configuration retained.
+- versionCode 3800 / versionName 3.8.0-android.
+- Central server client and snapshot manager are isolated from existing UI modules.
+- Final Android compilation is performed by the included GitHub Actions workflow.

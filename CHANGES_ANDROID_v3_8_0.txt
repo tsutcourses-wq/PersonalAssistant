@@ -1,0 +1,10 @@
+Personal Assistant Android v3.8.0
+
+- Preserved all v3.7.7 features.
+- Added a separate CentralServerClient HTTP layer.
+- Added portable database + managed-file SnapshotManager.
+- Added central-server configuration, connection test, upload and download controls.
+- Added optimistic revision conflict handling.
+- Added automatic local backup before applying downloaded data.
+- Added INTERNET permission and local HTTP test support.
+- Updated versionCode to 3800.
