@@ -1,0 +1,10 @@
+Personal Assistant Android v3.8.4
+
+Base: Android v3.8.3 calendar/notes corrections branch.
+
+Requested correction only:
+1. In Dashboard > Calendar > Week view, the seven days are displayed in two rows instead of one row.
+   - Row 1: Saturday through Tuesday (4 days)
+   - Row 2: Wednesday through Friday (3 days)
+   - A blank fourth column keeps day-card widths consistent.
+2. Week navigation, Month/Year views, reminders, tasks, notes, Today date display, Previous/Next navigation, and all other v3.8.3 features remain unchanged.

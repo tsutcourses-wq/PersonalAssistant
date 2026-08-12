@@ -1,0 +1,13 @@
+Personal Assistant Android v3.8.2
+
+Base: Android v3.8.1 targeted-corrections branch.
+
+Requested corrections only:
+1. Completed tasks can be deleted directly, and all completed tasks can be deleted in one confirmed action.
+2. Calendar Week / Month / Year mode buttons and Previous / Today / Next navigation are laid out equally so Next is visible.
+3. Removed the "Week containing ..." sentence from week view.
+4. Removed the Persian word from the Notes section labels.
+5. Notes now have a required title and body and are saved as individual records.
+6. Added See all notes. Saved notes can be edited and deleted.
+7. Existing v3.8.1 single dashboard note is migrated once into the new notes list as "Imported dashboard note".
+8. All other v3.8.1 features and underlying compatibility code are retained.
