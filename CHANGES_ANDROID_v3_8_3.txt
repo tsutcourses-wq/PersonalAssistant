@@ -1,0 +1,10 @@
+Personal Assistant Android v3.8.3
+
+Base: Android v3.8.2 requested-corrections branch.
+
+Requested corrections only:
+1. Removed the descriptive sentence under Notes ("Save notes in English, فارسی, or both.").
+2. Week calendar view now shows all seven days simultaneously; no horizontal scrolling is required to see the whole week.
+3. Removed the Today navigation button between Previous and Next.
+4. Added a Today date card above the calendar showing both Shamsi and Gregorian dates.
+5. Week / Month / Year modes, Previous / Next navigation, reminders, tasks, editable/deletable notes, completed-task deletion, and all other v3.8.2 features are retained.
