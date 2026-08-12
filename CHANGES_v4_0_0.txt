@@ -1,8 +1,0 @@
-Android v4.0.0
-- Independent Android release line.
-- Removed Students, Projects, Courses, File Inventory UI.
-- Removed Database/Sync and Central Server settings/UI.
-- New focused dashboard: calendar, 5 reminders, 5 tasks, notes.
-- Week/Month/Year Jalali calendar navigation with previous/next/today and swipe.
-- Generic editable tasks, no project/student task type.
-- Legacy task migration without deleting legacy tables.
